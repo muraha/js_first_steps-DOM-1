@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS_3</title>
+
+    <style>
+        li:nth-child(odd) {
+            background: #fff500;
+        }
+
+        li:nth-child(even) {
+            background: #f42fd5;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h4 style="margin: 20px 0 2px">Задача 6 та 7</h4>
+        <p style="margin: 5px 0">Створіть кнопку. При натисненні на неї виведіть вікно з текстом "WooHoo!" При натисненні на кнопку записати у поле значення "Я текст в textarea".</p>
+        <button id="t67" style="display: block; margin: 2px 0">Click me!</button>
+        <textarea name="input" cols="30" rows="10"> </textarea>
+    </div>
+    <div>
+        <h4 style="margin: 20px 0 2px">Задача 8</h4>
+        <p style="margin: 5px 0">Створіть кнопку і 2 поля для вводу. При натисненні на кнопку значення в першому полі записати у друге поле, а значення другого - у перше. При цьому текст кнопки має стати "Натиснена".</p>
+        <button id="t8" style="display: block; margin: 2px 0">Click me!</button>
+        <input type="text">
+        <input type="text">
+    </div>
+    <div>
+        <h4 style="margin: 20px 0 2px">Задача 9</h4>
+        <p style="margin: 5px 0">Створіть блок червоного кольору і чорною рамкою. При натисненні на нього змініть його колір на жовтий, а колір рамки на зелений.</p>
+        <div style="border:3px solid black; background-color: #f00; height: 20px"></div>
+    </div>
+
+    <div>
+        <h4 style="margin: 20px 0 2px">Задача 10</h4>
+        <p style="margin: 5px 0">Одна кнопка додає пункти в кінець списку, інша приберає пункти з кінця списку.</p>
+        <button id="t101" style="display: inline-block; width: 100px; margin: 2px 0">Add point</button>
+        <button id="t102" style="display: inline-block; width: 100px; margin: 2px 0">Remove point</button>
+        <ul>
+            <li>Point 1</li>
+            <li>Point 2</li>
+            <li>Point 3</li>
+            <li>Point 4</li>
+        </ul>
+    </div>
+
+    <div>
+        <h4 style="margin: 20px 0 2px">Задача 11</h4>
+        <p style="margin: 5px 0">Одна кнопка додає пункти в початок списку. При чому доданий пункт має номер 1, у всіх решти пунктів номери зсовуються. Також для помічення доданих пунктів на початку вставляється зірочка. Друга кнопка видаляє пункти з початку списку. При чому знову ж таки нумерація змінюється.</p>
+        <button id="t111" style="display: inline-block; width: 150px; margin: 2px 0">Add point to the beginning</button>
+        <button id="t112" style="display: inline-block; width: 150px; margin: 2px 0">Remove point from the beginning</button>
+        <ul>
+            <li>Point 1</li>
+            <li>Point 2</li>
+            <li>Point 3</li>
+            <li>Point 4</li>
+        </ul>
+    </div>
+
+
+
+    <script src="js/arrays.js"></script>
+    <script src="js/DOM.js"></script>
+
+</body>
+
+</html>
